@@ -34,7 +34,7 @@ const people = [
     }
 ]
 
-    function listNames(people, age) {
+    function listNames(people) {
         people.forEach(function(a) { //I use the forEach method with a function and inside the function, i added the peoperty i need to delete
             console.log(a.firstName + ' ' + a.lastName)
 
