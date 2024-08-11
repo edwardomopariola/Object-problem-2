@@ -2,7 +2,7 @@
 console logs the first and last names of all the people.
 */
 
-const people = [
+const celebrity = [
     {
         firstName: "Denzel",
         lastName: "Washington",
@@ -16,7 +16,7 @@ const people = [
     },
 
     {
-        firstName: "James",
+        firstName: "Jamie",
         lastName: "foxx",
         age: 57,
     },
@@ -41,4 +41,4 @@ const people = [
         });
     }
 
-     listNames(people);
+     listNames(celebrity);
